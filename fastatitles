@@ -1,3 +1,4 @@
 fasta=$(find . -name "*.fa" -or -name "*.fasta")
 grep ">" $fasta
+echo program finished
 
